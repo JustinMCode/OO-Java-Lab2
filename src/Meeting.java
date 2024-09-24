@@ -68,4 +68,6 @@ public class Meeting extends Event {
     public Duration getDuration() {
         return Duration.between(this.getDateTime(), this.endDateTime);
     }
+
+
 }
